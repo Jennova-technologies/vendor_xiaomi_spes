@@ -484,7 +484,9 @@ PRODUCT_PACKAGES += \
     libApeSwDec \
     libFileMux_proprietary \
     libFlacSwDec \
+    libcrypto-v34 \
     libMpeg4SwEncoder \
+    libfastcvopt \
     libOmxAacDec \
     libOmxAlacDec \
     libOmxAlacDecSw \
@@ -541,6 +543,7 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libssrec \
+    libthermalclient \
     libsurround_3mic_proc \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
@@ -667,7 +670,6 @@ PRODUCT_PACKAGES += \
     com.qtistatic.stats.awb \
     com.qtistatic.stats.pdlib \
     com.vidhance.node.processing \
-    com.dsi.ant@1.0 \
     com.fingerprints.extension@1.0 \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
@@ -829,7 +831,6 @@ PRODUCT_PACKAGES += \
     liblocation_api \
     liblocationservice \
     liblocationservice_glue \
-    liblocdiagiface \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
@@ -921,7 +922,6 @@ PRODUCT_PACKAGES += \
     libtinyxml2_1 \
     libtrustedapploader \
     libtzdrmgenprov \
-    libvendor.goodix.hardware.biometrics.fingerprint@2.1 \
     libvideofilter_only \
     libvidhance \
     libwa_depth \
@@ -974,10 +974,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
-    vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@3.5 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.camera.postproc@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
