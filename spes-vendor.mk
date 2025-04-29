@@ -440,6 +440,7 @@ PRODUCT_PACKAGES += \
     libCB \
     libOpenCL \
     libVkLayer_q3dtools \
+    libadreno_app_profiles \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
@@ -456,6 +457,7 @@ PRODUCT_PACKAGES += \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
+    libllvm-qgl \
     libmdsprpc \
     libmmosal_vendor \
     libqcci_legacy \
